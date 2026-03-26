@@ -1,0 +1,62 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файлы окружения
+.env
+.env.local
+.env.production
+
+# Локальная база данных (если используем SQLite)
+*.sqlite
+*.sqlite3
+
+# Логи
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Render local
+render.yaml
+.local/
+
+# Папка для локальных тестов
+localhost/
+local/
+
+# Временные файлы
+tmp/
+temp/
+*.tmp
+
+# Скрипты очистки (не хостим)
+clear-db.js
+delete-user.js
+view-db.js
+remove-password.js
+
+# Документация (личное)
+*.md
+!README.md
+
+# Папка с идеями ИИ
+ai-ideas/
+ideas/
+brainstorm/
+
+# Сборки
+dist/
+build/
+*.apk
