@@ -2,9 +2,9 @@
   "name": "family-messenger",
   "version": "1.0.0",
   "description": "Family messenger",
-  "main": "server/server.js",
+  "main": "HOST/server/server.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node HOST/server/server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
