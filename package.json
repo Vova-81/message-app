@@ -1,7 +1,7 @@
 {
   "name": "family-messenger",
   "version": "1.0.0",
-  "description": "Simple messenger for family",
+  "description": "Family messenger",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js"
